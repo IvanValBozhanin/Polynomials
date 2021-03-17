@@ -77,7 +77,6 @@ public class Polynomial implements Cloneable{
         for (Monomial m :
                 a.l) {
             c = Polynomial.add(c, Polynomial.multiplyPolynomialMonomial(b, m));
-
         }
         return c;
     }
