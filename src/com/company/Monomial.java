@@ -34,6 +34,6 @@ public class Monomial implements Comparable<Monomial> {
 
     @Override
     public int compareTo(Monomial o) {
-        return Double.compare(power, o.power);
+        return Integer.compare(power, o.power);
     }
 }
